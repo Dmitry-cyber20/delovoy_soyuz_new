@@ -1,0 +1,388 @@
+.footer-wrapper {
+    background-color: #ffffff;
+    margin-top: 80px;
+  }
+  
+  .footer-content {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .logo-footer {
+    width: 200px;
+  }
+  
+  .footer-search {
+    border: 1px solid #970010;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .social-contact_2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 60px;
+    padding-top: 20px;
+  }
+  
+  .odnok_2 {
+    width: 100px;
+  }
+  
+  .whatsapp_2,
+  .vk_2,
+  .tg_2 {
+    width: 25px;
+  }
+  
+  .title-our-offer {
+    display: none;
+  }
+  
+  
+  .footer-menu_2,
+  .footer-menu_4 {
+    width: 160px;
+  }
+  
+  .footer-line {
+    opacity: 0.5;
+  }
+  
+  .politica-block {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+  }
+  
+  .mynumber {
+    text-decoration: none;
+    color: #869791;
+  }
+  
+  
+  .dropbtn {
+    background-color: #ffffff;
+    font-size: 16px;
+    border: none;
+    font-family: inherit;
+    padding: 0;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .dropdown-content-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-menu a {
+    color: black;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ffffff;
+    color: #DB3544;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: grid;
+  
+  }
+  
+  .dropdown:hover .dropdown-content-menu {
+    display: grid;
+  
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: #DB3544;
+    font-weight: 500;
+  }
+  
+  .grid-border {
+    border-right: 1px solid #DB3544;
+  }
+  
+  .footer-menu_5 p:hover {
+    color: #DB3544;
+  }
+  
+  .footer-menu_4 p:hover {
+    color: #DB3544;
+  }
+  
+  .footer-menu_3 p:hover {
+    color: #DB3544;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .footer-content {
+      width: 980px;
+      font-size: 12px;
+    }
+  
+    .logo-footer {
+      width: 180px;
+    }
+  
+    .dropdown input {
+      font-size: 12px;
+      width: auto;
+    }
+  
+    .dropdown {
+      width: auto;
+    }
+  
+    .dropdown::before {
+      top: 3px;
+      width: 4px;
+      height: 4px;
+    }
+  
+    .politica-block {
+      font-size: 12px;
+    }
+  
+    .footer-wrapper {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+  
+    .footer-menu_2,
+    .footer-menu_4 {
+      width: 160px;
+    }
+  
+    .footer-line {
+      opacity: 0.5;
+    }
+  
+    .politica-block {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      align-items: center;
+    }
+  
+    .mynumber {
+      text-decoration: none;
+      color: #869791;
+    }
+  
+    .dropbtn {
+      background-color: #ffffff;
+      font-size: 16px;
+      border: none;
+      font-family: inherit;
+      padding: 0;
+    }
+  
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      width: max-content;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  
+    .dropdown-content-menu {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      width: max-content;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border-radius: 10px;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 20px;
+      padding: 10px;
+    }
+  
+    .dropdown-content a {
+      color: black;
+      padding: 5px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .dropdown-content-menu a {
+      color: black;
+      padding: 5px;
+      margin: 0;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .dropdown-content a:hover {
+      background-color: #ffffff;
+      color: #DB3544;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: grid;
+  
+    }
+  
+    .dropdown:hover .dropdown-content-menu {
+      display: grid;
+  
+    }
+  
+    .dropdown:hover .dropbtn {
+      color: #DB3544;
+      font-weight: 500;
+    }
+  
+    .grid-border {
+      border-right: 1px solid #DB3544;
+    }
+  
+    .footer-menu_5>p:hover {
+      color: #DB3544;
+    }
+  
+    .footer-menu_4>p:hover {
+      color: #DB3544;
+    }
+  
+    .footer-menu_3>p:hover {
+      color: #DB3544;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      width: 728px;
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+  
+    .dropbtn {
+      font-size: 14px;
+    }
+  
+    .logo-search,
+    .footer-menu_2,
+    .footer-menu_3,
+    .footer-menu_5 {
+      width: 33%;
+    }
+  
+    .footer-menu_4 {
+      width: 50%;
+    }
+  
+    .politica-block {
+      gap: 0;
+      width: 728px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .footer-content {
+      width: 310px !important;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo-footer {
+      width: 100%;
+    }
+  
+    .footer-search {
+      width: 100%;
+    }
+  
+    .social-contact_2 {
+      justify-content: flex-start;
+      width: 100%;
+      gap: 10px;
+      padding: 0;
+    }
+  
+    .logo-search {
+      width: 320px;
+    }
+  
+    .dropdown {
+      width: 100%;
+      height: auto;
+    }
+  
+    .dropdown input {
+      left: -3px;
+    }
+  
+    .footer-menu_2, .footer-menu_3, .footer-menu_4, .footer-menu_5 {
+      width: 100%;
+    }
+  
+    .dropdown .options {
+      top: 25px;
+    }
+  
+    .politica-block {
+      flex-direction: column;
+      width: 310px !important;
+      margin: 0 auto !important;
+      gap: 10px !important;
+      padding-bottom: 60px;
+      align-items: normal !important;
+      text-align: left;
+      font-size: 12px !important;
+  }
+  
+    .politica-block p {
+      padding: 0;
+      margin: 0;
+    }
+  }
