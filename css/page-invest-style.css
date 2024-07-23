@@ -18,7 +18,7 @@ body {
 
 .hero-main {
     max-width: 100%;
-    background-image: url(img/image32.png);
+    background-image: url(/delovoy_soyuz_new/img/image32.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -366,7 +366,7 @@ body {
 }
 
 .example {
-    background-image: url(img/screen1.png);
+    background-image: url(/delovoy_soyuz_new/img/screen1.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -393,7 +393,7 @@ body {
 .example-item {
     width: 48%;
     background-color: #fff;
-    background-image: url(/img/modern-balcony.png);
+    background-image: url(/delovoy_soyuz_new/img/modern-balcony.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     border-radius: 10px;
@@ -571,7 +571,7 @@ body {
 }
 
 .client-form {
-    background-image: url(img/talk.png);
+    background-image: url(/delovoy_soyuz_new/img/talk.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     border-radius: 10px;
@@ -581,7 +581,7 @@ body {
 }
 
 .client-form_2 {
-    background-image: url(img/volume.png);
+    background-image: url(/delovoy_soyuz_new/img/volume.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     border-radius: 10px;
