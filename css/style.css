@@ -513,14 +513,14 @@ div.sim-slider-arrow-left {
   left: -20px;
   top: 50%;
   display: block;
-  background: url("img/ar-right.svg") no-repeat;
+  background: url("/delovoy_soyuz_new/img/ar-right.svg") no-repeat;
 }
 
 div.sim-slider-arrow-right {
   right: -20px;
   top: 50%;
   display: block;
-  background: url("img/ar-left.svg") no-repeat;
+  background: url("/delovoy_soyuz_new/img/ar-left.svg") no-repeat;
 }
 
 div.sim-slider-arrow-left:hover {
