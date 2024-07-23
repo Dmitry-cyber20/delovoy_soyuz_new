@@ -687,3 +687,767 @@ body {
 .grid-border {
     border-right: 1px solid #DB3544;
 }
+
+@media screen and (max-width: 1024px) {
+    .hero-main {
+        width: 980px;
+    }
+
+    .hero-main-content {
+        width: 980px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-description {
+        font-size: 24px;
+        width: 88%;
+    }
+
+    .cta-buttons {
+        gap: 10px;
+    }
+
+    .cta-button_1 {
+        font-size: 16px;
+    }
+
+    .main-text {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    /*Вторая секция*/
+
+    .offer {
+        width: 980px;
+        margin-top: 20px !important;
+    }
+
+    .second-offer {
+        max-width: 980px;
+    }
+
+    .title-second-offer {
+        font-size: 32px;
+        width: 90% !important;
+        line-height: 40px;
+    }
+
+    .description-second-offer {
+        width: 960px;
+        font-size: 24px;
+    }
+
+    .text-second-offer {
+        font-size: 24px;
+        width: 980px;
+    }
+
+    .text-second-offer-correction {
+        font-size: 24px;
+    }
+
+    .description-second-offer {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .text-second-offer-construction {
+        font-size: 24px;
+    }
+
+    .carousel-construction-container {
+        padding: 0;
+    }
+
+    .carousel-construction {
+        width: 980px;
+        overflow: hidden;
+    }
+
+    .carousel-construction-2 {
+        width: 980px;
+        overflow: hidden;
+    }
+
+    .carousel-construction-container-2 {
+        padding: 0;
+        margin-top: 20px;
+        margin-left: -200px;
+    }
+
+    .accreditation-items-content {
+        width: 980px;
+    }
+
+    .accreditation-main-item {
+        width: 980px;
+    }
+
+    .buttons-accreditation {
+        width: 980px;
+    }
+
+    .buttons-accreditation-2 {
+        width: 980px;
+    }
+
+    .main-item-text-2 {
+        padding-right: 20px;
+    }
+
+    .button-offer {
+        margin-right: 40px;
+    }
+
+    /*Третья секция*/
+
+    .example-wrapp {
+        width: 980px;
+        padding-top: 90px;
+        margin-bottom: 40px;
+    }
+
+    .example-wrapp-pic {
+        margin-left: 290px;
+        width: 260px;
+    }
+
+    .btn-policy {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .example-description,
+    .example-title {
+        width: 100% !important;
+    }
+
+    .example-description {
+        font-size: 18px;
+    }
+
+    .btn-forms-example {
+        width: 52%;
+    }
+
+    .input-box input {
+        width: 50%;
+    }
+
+    .proposals-wrapp {
+        width: 980px;
+        gap: 20px;
+    }
+
+    .proposals-items {
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .proposals-item-btn {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    .proposals {
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    /**/
+
+    .last-forms-offer {
+        width: 980px;
+    }
+
+    .title-last-forms-offer {
+        font-size: 32px;
+    }
+
+    .description-last-forms-offer {
+        font-size: 24px;
+    }
+
+    .clients-partners-forms {
+        width: 980px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    .btn-forms-client {
+        width: 52%;
+    }
+
+    .our-contact {
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    .title-our-contact-offer {
+        font-size: 32px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .contacts-adress {
+        width: 980px;
+        font-size: 20px;
+    }
+
+    .our-contact-offer2 {
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    .title-our-offer {
+        font-size: 32px;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero-main-content {
+        width: 728px;
+    }
+
+    .hero-description-correction {
+        width: 100%;
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .mytext-selection {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .cta-button1 {
+        padding: 20px;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .cta-button1_2 {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .cta-buttons1 {
+        justify-content: space-between;
+    }
+
+    /**/
+
+    .offer {
+        width: 728px;
+    }
+
+    .title-second-offer {
+        font-size: 28px;
+    }
+
+    .description-second-offer {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .text-second-offer-construction {
+        font-size: 20px;
+    }
+
+    .carousel-construction {
+        width: 728px;
+    }
+
+    .carousel-construction-2 {
+        width: 728px;
+    }
+
+    .buttons-offer {
+        max-width: 728px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .button-offer {
+        margin: 0;
+        padding: 20px 100px;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    /**/
+
+    .second-offer {
+        max-width: 728px;
+    }
+
+    .title-second-offer {
+        font-size: 28px;
+        line-height: 36px;
+        margin: 0;
+    }
+
+    .accreditation-items-content {
+        width: 728px;
+    }
+
+    .accreditation-item-text {
+        padding: 20px;
+    }
+
+    .accreditation-main-item {
+        width: 728px;
+    }
+
+    .main-item-text,
+    .main-item-text-2 {
+        font-size: 20px;
+    }
+
+    .buttons-accreditation {
+        width: 728px;
+        margin-bottom: 40px;
+    }
+
+    .buttons-accreditation-2 {
+        width: 728px;
+    }
+
+    .main-item-text-2 {
+        padding: 0;
+    }
+
+    /**/
+
+    .example-wrapp {
+        width: 728px;
+    }
+
+    .example-item-accreditation {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .example-wrapp-pic {
+        margin-left: 450px;
+        width: 240px;
+    }
+
+    /**/
+
+    .proposals {
+        width: 728px;
+    }
+
+    .proposals-wrapp {
+        width: 728px;
+        padding-top: 60px;
+    }
+
+    .proposals-wrapp-pic {
+        display: none;
+    }
+
+    .proposals-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .last-forms-offer {
+        width: 728px;
+    }
+
+    .title-last-forms-offer {
+        font-size: 28px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    .description-last-forms-offer {
+        font-size: 20px;
+    }
+
+    .clients-partners-forms {
+        width: 728px;
+    }
+
+    .client-form-construction {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .client-form-description {
+        width: 85%;
+        font-size: 18px;
+    }
+
+    /**/
+
+    .our-contact {
+        width: 728px;
+        margin: 0 auto;
+    }
+
+    .contacts-adress {
+        width: 728px;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        text-align: center;
+    }
+
+    .our-contact-offer2 {
+        width: 728px;
+        margin: 0 auto;
+    }
+
+    .title-our-offer {
+        font-size: 28px;
+        margin: 60px auto 40px;
+        width: 728px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .hero-construction {
+        height: auto;
+        background-position: center;
+    }
+
+    .hero-main-content {
+        width: 320px;
+    }
+
+    .hero-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .hero-correction {
+        height: auto;
+    }
+
+    .hero-description-correction {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .cta-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cta-button_1 {
+        border-radius: 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 30px;
+        padding: 10px 5px;
+    }
+
+    .main-text {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    .cta-buttons1 {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-button1 {
+        margin: 0 0 20px 0;
+    }
+
+    .cta-button1_2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    /*Вторая секция*/
+
+    .offer {
+        width: 320px;
+    }
+
+    .second-offer {
+        max-width: 320px;
+    }
+
+    .title-second-offer {
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .description-second-offer {
+        width: 320px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .text-second-offer-construction {
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .carousel-construction {
+        width: 320px;
+    }
+
+    .carousel-construction-2 {
+        width: 320px;
+    }
+
+    .carousel-construction-item img {
+        width: 120px;
+        height: auto;
+    }
+
+    .carousel-construction-container {
+        gap: 10px;
+    }
+
+    .carousel-construction-container-2 {
+        margin-left: -100px;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .text-second-offer-correction>.title-span {
+        display: none;
+    }
+
+    .buttons-offer {
+        max-width: 320px;
+    }
+
+    .button-offer {
+        padding: 20px 70px;
+        margin: 0;
+    }
+
+    .title-second-offer>.title-span {
+        display: none;
+    }
+
+    /**/
+
+    .accreditation-items-content {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .accreditation-item {
+        width: 100%;
+    }
+
+    .accreditation-main-item {
+        width: 320px;
+    }
+
+    .main-item-wrapp {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px 60px 10px;
+        align-items: center;
+    }
+
+    .main-item-text {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .main-item-text-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-offer {
+        padding: 20px 12%;
+    }
+
+    .buttons-accreditation {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .buttons-accreditation-2 {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /**/
+
+    .example-wrapp {
+        width: 320px;
+    }
+
+    .example-accreditation {
+        background-position: center;
+    }
+
+    .example-wrapp-pic {
+        display: none;
+    }
+
+    .example-item-accreditation {
+        background-color: #ffffffe3;
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px 10px;
+    }
+
+    .example-description,
+    .example-title {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .example-title {
+        font-size: 20px;
+    }
+
+    .input-box input {
+        width: 96%;
+    }
+
+    .btn-forms-example {
+        width: 100%;
+    }
+
+    .btn-policy {
+        text-align: center;
+    }
+
+    /**/
+
+    .proposals {
+        width: 320px;
+    }
+
+    .proposals-wrapp {
+        width: 320px;
+    }
+
+    .proposals-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .last-forms-offer {
+        width: 320px;
+        text-align: center;
+    }
+    .clients-partners-forms {
+        width: 320px;
+    }
+    .client-form-offer {
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn-forms-client{
+        width: 94%;
+    }
+    .input-box input {
+        width: 280px;
+    }
+    .client-form-description{
+        width: 100% !important;
+        text-align: center;
+    }
+    .client-form-construction {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .title-our-contact-offer {
+        font-size: 28px;
+    }
+    .social-contact{
+        width: 320px;
+        padding: 10px;
+    }
+    .odnok {
+        width: 140px;
+    }
+    .whatsapp, .vk, .tg {
+        width: 40px;
+    }
+    .contacts-adress{
+        width: 320px;
+    }
+    .title-our-offer {
+        font-size: 28px;
+        margin: 60px auto 40px;
+        width: 320px;
+        gap: 10px;
+    }
+/**/
+
+.our-contact {
+    width: 320px;
+    margin: 0 auto;
+}
+.title-our-contact-offer {
+    font-size: 28px;
+}
+.social-contact{
+    width: 320px;
+    padding: 10px;
+}
+.odnok {
+    width: 140px;
+}
+.whatsapp, .vk, .tg {
+    width: 40px;
+}
+.contacts-adress{
+    width: 320px;
+}
+.title-our-offer {
+    font-size: 28px;
+    margin: 60px auto 40px;
+    width: 320px;
+    gap: 10px;
+}
+.our-contact-offer2 {
+    width: 320px;
+    margin: 0 auto;
+}
+
+}
