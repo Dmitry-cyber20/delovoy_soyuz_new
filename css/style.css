@@ -295,7 +295,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(img/Mask-group.png);
+  background-image: url(/delovoy_soyuz_new/img/Mask-group.png);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1200px;
@@ -1244,7 +1244,7 @@ div.sim-slider_2-arrow-right:hover {
 }
 
 .client-form {
-  background-image: url(/img/heart.png);
+  background-image: url(/delovoy_soyuz_new//img/heart.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   border-radius: 10px;
@@ -1254,7 +1254,7 @@ div.sim-slider_2-arrow-right:hover {
 }
 
 .client-form_2 {
-  background-image: url(/img/Mask-logopng.png);
+  background-image: url(/delovoy_soyuz_new//img/Mask-logopng.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   border-radius: 10px;
