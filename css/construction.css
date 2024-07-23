@@ -17,7 +17,7 @@ body {
 
 .hero-construction {
     max-width: 100%;
-    background-image: url(/img/construction.png);
+    background-image: url(/delovoy_soyuz_new/img/construction.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -358,6 +358,7 @@ body {
     background-color: #fff;
     border-radius: 10px;
     padding: 10px 0 0 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .btn-forms-example {
@@ -426,7 +427,7 @@ body {
     height: 400px;
     padding: 20px;
     align-items: stretch;
-    background-image: url(/img/prop1.svg);
+    background-image: url(/delovoy_soyuz_new/img/prop1.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -440,7 +441,7 @@ body {
     height: 400px;
     padding: 20px;
     align-items: stretch;
-    background-image: url(/img/prop2.svg);
+    background-image: url(/delovoy_soyuz_new/img/prop2.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -454,7 +455,7 @@ body {
     height: 400px;
     padding: 20px;
     align-items: stretch;
-    background-image: url(/img/prop3.svg);
+    background-image: url(/delovoy_soyuz_new/img/prop3.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -468,7 +469,7 @@ body {
     height: 400px;
     padding: 20px;
     align-items: stretch;
-    background-image: url(/img/prop4.svg);
+    background-image: url(/delovoy_soyuz_new/img/prop4.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -482,7 +483,7 @@ body {
     height: 400px;
     padding: 20px;
     align-items: stretch;
-    background-image: url(/img/prop5.svg);
+    background-image: url(/delovoy_soyuz_new/img/prop5.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -496,7 +497,7 @@ body {
     height: 400px;
     padding: 20px;
     align-items: stretch;
-    background-image: url(/img/prop6.svg);
+    background-image: url(/delovoy_soyuz_new/img/prop6.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -577,7 +578,7 @@ body {
 }
 
 .client-form-construction {
-    background-image: url(/img/prop-fon-2.png);
+    background-image: url(/delovoy_soyuz_new/img/prop-fon-2.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     border-radius: 10px;
