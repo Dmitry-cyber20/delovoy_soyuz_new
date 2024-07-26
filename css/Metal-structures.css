@@ -1,0 +1,718 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+/*пЕРВЫЙ ЭКРАН*/
+
+.hero-construction {
+    max-width: 100%;
+    background-image: url(/img/metal-fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    top: -40px;
+}
+
+.hero-main-content {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 0 60px 20px;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+.hero-title {
+    font-size: 40px;
+    padding: 140px 0 0 0;
+    color: #000000;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 30px;
+    width: 540px;
+    font-weight: 500;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.hero-description-correction {
+    font-size: 30px;
+    width: 777px;
+    font-weight: 500;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.title-span {
+    color: #970010;
+}
+
+.title1-span {
+    color: #970010;
+}
+
+
+.hero-content-block {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.cta-button_1 {
+    background: transparent;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #970010;
+    border-radius: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding: 12px 20px;
+    display: inline-block;
+    transform: skew(-15deg);
+}
+
+.cta-buttons1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cta-button1 {
+    display: inline-block;
+    background-color: #DB3544;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    margin-right: 60px;
+}
+
+.cta-button1:hover {
+    background-color: #970010;
+}
+
+.cta-button1_2 {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mypoint {
+    font-size: 42px;
+    color: #970010;
+}
+
+.main-text {
+    width: 680px;
+}
+
+.mytext-selection {
+    font-size: 28px;
+    font-weight: 500;
+    color: #970010;
+    line-height: 42px;
+}
+
+/* Оффер */
+
+.offer {
+    margin-top: 90px !important;
+    display: flex;
+    width: 1160px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.second-offer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1160px;
+    flex-direction: column;
+}
+
+.title-second-offer {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    line-height: 50px;
+
+}
+
+.description-second-offer {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    width: 1050px;
+}
+
+.text-second-offer {
+    font-size: 30px;
+    font-weight: 600;
+    width: 1160px;
+    padding-bottom: 20px;
+}
+
+.text-second-offer-construction {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    width: 1160px;
+}
+
+/*Примеры обьектов*/
+
+.object-build{
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.object-build-wrapp{
+    width: 100%;
+}
+.object-build-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+}
+.object-build-item-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.object-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text-second-offer-metal-structuries{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: -20px;
+    width: 1160px;
+}
+
+
+/* Партнеры */
+
+.buttons-offer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    justify-content: center;
+}
+
+.button-offer {
+    display: inline-block;
+    background-color: #DB3544;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 100px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    margin-right: 60px;
+}
+
+.button-offer:hover {
+    background-color: #970010;
+}
+
+/* секция комплексные решения*/
+
+.complex-wrapp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1160px;
+    row-gap: 80px;
+    column-gap: 40px;
+    margin: 0 auto;
+    padding-top: 80px;
+    justify-items: stretch;
+}
+.complex-item{
+    display: flex;
+    flex-direction: column;
+}
+.complex-item-content{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.complex-item-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.complex-item-form {
+    background-image: url(/img/complex-item-pic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 10px;
+    padding: 20px 20px 5px 40px;
+    width: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.complex-form-offer{
+font-size: 24px;
+font-weight: 600;
+}
+.input-box input {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    border: 1px solid #DB3544;
+    border-radius: 10px;
+}
+.btn-forms-client {
+    width: 210px;
+    padding: 20px 60px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #DB3544;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.btn-forms-client:hover {
+    background-color: #970010;
+}
+
+.btn-policy {
+    width: 70%;
+}
+
+/* Секция модульные дома*/
+
+.modul-house{
+    padding-top: 120px;
+}
+.modul-house-wrapp{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.modul-house-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modul-item-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+.modul-item-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1160px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 40px;
+    padding-top: 60px;
+}
+.modul-item-2-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+.modul-item-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1160px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 40px;
+    padding-top: 60px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+/* Слайдер */
+
+.offer-slider{
+padding-top: 60px;
+}
+
+.offer-slider-metal {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  
+  .cool-offer-slider_1 {
+    position: absolute;
+    z-index: 999;
+    top: 20%;
+    left: 40px;
+  }
+  
+  .cool-offer-slider_2 {
+    position: absolute;
+    z-index: 999;
+    top: 20%;
+    right: 40px;
+  }
+  
+  .sim-slider {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .sim-slider-list img {
+    width: 1200px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  /* General styles */
+  .sim-slider {
+    position: relative;
+  }
+  
+  .sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sim-slider-element {
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+  
+  /* Navigation item styles */
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 4;
+  }
+  
+  div.sim-slider-arrow-left {
+    left: -20px;
+    top: 220px;
+    display: block;
+    background: url("/img/ar-right.svg") no-repeat;
+  }
+  
+  div.sim-slider-arrow-right {
+    right: -20px;
+    top: 220px;
+    display: block;
+    background: url(/img/ar-left.svg) no-repeat;
+} 
+  div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-dots {
+    display: none;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    text-align: center;
+  }
+  
+  span.sim-dot {
+    display: none;
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cta-button-offer {
+    background: #970010;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 12px 20px;
+    display: inline-block;
+    transform: skew(-15deg);
+    margin: 0 auto;
+  }
+  
+  .text-upperc {
+    text-transform: uppercase;
+  }
+
+  .buttons-offer-metal {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1160px;
+    margin-top: 460px;
+    margin-bottom: 120px;
+    justify-content: center;
+}
+
+.button-offer {
+    display: inline-block;
+    background-color: #DB3544;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 100px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    margin-right: 60px;
+}
+
+.button-offer:hover {
+    background-color: #970010;
+}
+
+/*Наши проекты*/
+
+.our-project-wrap {
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 90px;
+    gap: 20px;
+}
+.our-project-wrap-pic{
+    bottom: -200px;
+    position: relative;
+}
+.our-project-item {
+    width: 1060px;
+    height: 500px;
+    border-radius: 10px;
+}
+.our-project-wrapp-second{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+.our-project-item-2 {
+    width: 1060px;
+    border-radius: 10px;
+    margin-top: -180px;
+}
+.our-project-wrapp-third{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.our-project-item-3{
+    border-radius: 10px;
+}
+.our-project-wrapp-four{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/**/
+.last-forms {
+    background-image: url(/img/metal-ofer-fon.png);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clients-partners-forms {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.client-form-construction {
+    background-image: url(/img/house-project.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 10px;
+    padding: 20px 20px 5px 20px;
+    width: 46%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffffffc5;
+}
+
+.client-form-offer {
+    font-size: 24px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+
+.name,
+.text {
+    display: block;
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.input-box input {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    border: 1px solid #DB3544;
+    border-radius: 10px;
+}
+
+
+
+.btn-forms-client {
+    width: 210px;
+    padding: 20px 60px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #DB3544;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.btn-forms-client:hover {
+    background-color: #970010;
+}
+
+.btn-policy {
+    width: 70%;
+}
+/*Контакты*/
+.title-our-contact-offer {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.social-contact {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.odnok {
+    width: 200px;
+}
+
+.whatsapp,
+.vk,
+.tg {
+    width: 50px;
+}
+
+.contacts-adress {
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 80px;
+    font-size: 24px;
+}
+
+.title-our-offer {
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 40px;
+    width: 800px;
+    gap: 20px;
+}
+
+
+
+
+.mynumber {
+    text-decoration: none;
+    color: #869791;
+}
+
+
+.grid-border {
+    border-right: 1px solid #DB3544;
+}
+
+

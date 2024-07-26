@@ -1,0 +1,52 @@
+@keyframes scroll {
+    0% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(-200%, 0);
+    }
+  }
+  @keyframes scroll-2 {
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    0% {
+      transform: translate(-200%, 0);
+    }
+  }
+  
+  .scroll_bg {
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .img-logo-partner {
+    display: block;
+    animation: scroll 5s infinite linear;
+    margin-left: 10px;
+  
+  }
+  .marqwee-carusel{
+  padding-top: 80px;
+  }
+  
+  .scroll_bg-2 {
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .img-logo-partner-2 {
+    display: block;
+    animation: scroll-2 5s infinite linear;
+    margin-left: 10px;
+  
+  }
+  
