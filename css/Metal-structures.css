@@ -15,7 +15,7 @@ body {
 
 .hero-construction {
     max-width: 100%;
-    background-image: url(/img/metal-fon.png);
+    background-image: url(/delovoy_soyuz_new/img/metal-fon.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -444,14 +444,14 @@ padding-top: 60px;
     left: -20px;
     top: 220px;
     display: block;
-    background: url("/img/ar-right.svg") no-repeat;
+    background: url("/delovoy_soyuz_new/img/ar-right.svg") no-repeat;
   }
   
   div.sim-slider-arrow-right {
     right: -20px;
     top: 220px;
     display: block;
-    background: url(/img/ar-left.svg) no-repeat;
+    background: url(/delovoy_soyuz_new/img/ar-left.svg) no-repeat;
 } 
   div.sim-slider-arrow-left:hover {
     opacity: 1.0;
@@ -577,7 +577,7 @@ padding-top: 60px;
 
 /**/
 .last-forms {
-    background-image: url(/img/metal-ofer-fon.png);
+    background-image: url(/delovoy_soyuz_new/img/metal-ofer-fon.png);
     padding-top: 90px;
     padding-bottom: 90px;
     background-repeat: no-repeat;
@@ -596,7 +596,7 @@ padding-top: 60px;
 }
 
 .client-form-construction {
-    background-image: url(/img/house-project.png);
+    background-image: url(/delovoy_soyuz_new/img/house-project.png);
     background-repeat: no-repeat;
     background-position: right center;
     border-radius: 10px;
