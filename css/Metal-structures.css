@@ -1725,6 +1725,10 @@ marqwee-carusel{
 section{
     width: 320px;
 }
+.scroll_bg,
+.scroll_bg-2{
+    width: 320px;
+}
 }
 
 
