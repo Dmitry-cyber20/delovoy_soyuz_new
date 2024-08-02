@@ -21,7 +21,7 @@ body {
 
 .hero-village {
     max-width: 100%;
-    background-image: url(/img/vilage-fon.png);
+    background-image: url(/delovoy_soyuz_new/img/vilage-fon.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -433,7 +433,7 @@ body {
 
 /**/
 .last-forms {
-    background-image: url(/img/village-offer.png);
+    background-image: url(/delovoy_soyuz_new/img/village-offer.png);
     padding-top: 90px;
     padding-bottom: 90px;
     background-repeat: no-repeat;
@@ -452,7 +452,7 @@ body {
 }
 
 .client-form-construction {
-    background-image: url(/img/village-offer-1.png);
+    background-image: url(/delovoy_soyuz_new/img/village-offer-1.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     border-radius: 10px;
@@ -759,7 +759,7 @@ margin-bottom: 90px;
     margin-top: 60px;
 }
 .client-form-village {
-    background-image: url(/img/village-last-offer.png);
+    background-image: url(/delovoy_soyuz_new/img/village-last-offer.png);
     background-repeat: no-repeat;
     background-position: right center;
     border-radius: 10px;
