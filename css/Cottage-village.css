@@ -19,6 +19,10 @@ body {
 
 /*пЕРВЫЙ ЭКРАН*/
 
+.menu-drop-container{
+    display: none;
+}
+
 .hero-village {
     max-width: 100%;
     background-image: url(/delovoy_soyuz_new/img/vilage-fon.png);
