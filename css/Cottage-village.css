@@ -1,6 +1,5 @@
 @import url("header.css");
 @import url("footer.css");
-@import url("menu-drop.css");
 
 /* Общие стили */
 body, html {
@@ -20,7 +19,8 @@ body {
 /*пЕРВЫЙ ЭКРАН*/
 
 .menu-drop-container,
-.accordion-menu-drop{
+.accordion-menu-drop,
+.menu-drop-list accordion{
     display: none;
 }
 
