@@ -17,7 +17,9 @@ body {
 }
 
 /*пЕРВЫЙ ЭКРАН*/
-
+.menu-drop-container{
+    display: none !important;
+}
 .menu-drop-list accordion{
     display: none;
 }
