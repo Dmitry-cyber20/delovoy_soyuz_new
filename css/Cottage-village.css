@@ -18,8 +18,6 @@ body {
 
 /*пЕРВЫЙ ЭКРАН*/
 
-.menu-drop-container,
-.accordion-menu-drop,
 .menu-drop-list accordion{
     display: none;
 }
