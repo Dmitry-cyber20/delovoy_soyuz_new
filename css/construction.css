@@ -1217,7 +1217,7 @@ body {
         font-size: 26px;
         line-height: 30px;
         text-align: center;
-        width: 100% !important;
+        width: 320px !important;
     }
 
     .description-second-offer {
@@ -1267,8 +1267,9 @@ body {
     }
 
     .button-offer {
-        padding: 20px 70px;
-        margin: 0;
+        padding: 20px 12%;
+        width: 300px;
+        text-align: center;
     }
 
     .title-second-offer>.title-span {
