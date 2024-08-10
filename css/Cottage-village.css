@@ -1,4 +1,4 @@
-@import url("header.css");
+@import url("/delovoy_soyuz_new/css/header.css");
 @import url("footer.css");
 
 /* Общие стили */
@@ -20,7 +20,7 @@ body {
 
 .hero-village {
     max-width: 100%;
-    background-image: url(/img/vilage-fon.png);
+    background-image: url(/delovoy_soyuz_new/img/vilage-fon.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
