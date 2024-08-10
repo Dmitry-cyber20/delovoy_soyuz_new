@@ -74,9 +74,7 @@ nav a {
     text-align: center;
 }
 
-.gamburger-menu {
-    display: none;
-}
+/*Мобильное меню*/
 
 .logo-menu-img {
     width: 200px !important;
@@ -172,12 +170,14 @@ nav a {
     font-family: inherit;
     padding: 0;
 }
-.dropbtn {
-    background-color: #ffffff;
+.dropbtn-mobile {
     font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
     border: none;
-    font-family: inherit;
-    padding: 0;
+    padding: 10px;
+
 }
 
 .dropdown {
@@ -208,6 +208,19 @@ nav a {
     column-gap: 20px;
     padding: 10px;
 }
+.dropdown-content-menu-mobile {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    padding: 10px;
+    right: -140px;
+}
 
 .dropdown-content a {
     color: black;
@@ -223,23 +236,36 @@ nav a {
     text-decoration: none;
     display: block;
 }
+.dropdown-content-menu-mobile a {
+    color: black;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+}
 
 .dropdown-content a:hover {
     background-color: #ffffff;
     color: #DB3544;
 }
-
 .dropdown:hover .dropdown-content {
     display: grid;
-
 }
 
 .dropdown:hover .dropdown-content-menu {
     display: grid;
 
 }
+.dropdown:hover .dropdown-content-menu-mobile {
+    display: grid;
+
+}
 
 .dropdown:hover .dropbtn {
+    color: #DB3544;
+    font-weight: 500;
+}
+.dropdown:hover .dropbtn-mobile {
     color: #DB3544;
     font-weight: 500;
 }
@@ -318,6 +344,26 @@ nav a {
         padding-left: 10px;
         margin-right: 10px;
         top: 12px;
+    }
+
+    /**/
+    .menu__box{
+        width: 80%;
+        padding: 60px 0;
+    }
+    .dropdown-content-menu-mobile {
+        width: 100%;
+        right: 20%;
+        top: -100px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .dropdown-content-menu-mobile a{
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    
+    .menu-drop-list accordion{
+        padding-left: 20px;
     }
   }
 

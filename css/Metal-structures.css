@@ -7,10 +7,15 @@ body, html {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 
 body {
     font-family: 'Exo 2', sans-serif;
 }
+
 /*пЕРВЫЙ ЭКРАН*/
 
 .hero-construction {
@@ -190,32 +195,37 @@ body {
 
 /*Примеры обьектов*/
 
-.object-build{
+.object-build {
     width: 1160px;
     margin: 0 auto;
     padding-top: 40px;
 }
-.object-build-wrapp{
+
+.object-build-wrapp {
     width: 100%;
 }
-.object-build-item{
+
+.object-build-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
 }
-.object-build-item-2{
+
+.object-build-item-2 {
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.object-item{
+
+.object-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.text-second-offer-metal-structuries{
+
+.text-second-offer-metal-structuries {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: -20px;
@@ -253,7 +263,7 @@ body {
 
 /* секция комплексные решения*/
 
-.complex-wrapp{
+.complex-wrapp {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 1160px;
@@ -263,16 +273,19 @@ body {
     padding-top: 80px;
     justify-items: stretch;
 }
-.complex-item{
+
+.complex-item {
     display: flex;
     flex-direction: column;
 }
-.complex-item-content{
+
+.complex-item-content {
     display: flex;
     gap: 20px;
     padding-top: 20px;
 }
-.complex-item-title{
+
+.complex-item-title {
     font-size: 24px;
     font-weight: 400;
 }
@@ -287,10 +300,12 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
-.complex-form-offer{
-font-size: 24px;
-font-weight: 600;
+
+.complex-form-offer {
+    font-size: 24px;
+    font-weight: 600;
 }
+
 .input-box input {
     width: 200px;
     height: 50px;
@@ -299,6 +314,7 @@ font-weight: 600;
     border: 1px solid #DB3544;
     border-radius: 10px;
 }
+
 .btn-forms-client {
     width: 210px;
     padding: 20px 60px;
@@ -317,31 +333,35 @@ font-weight: 600;
     background-color: #970010;
 }
 
-.btn-policy {
+.btn-policy-metal {
     width: 70%;
 }
 
 /* Секция модульные дома*/
 
-.modul-house{
+.modul-house {
     padding-top: 120px;
 }
-.modul-house-wrapp{
+
+.modul-house-wrapp {
     display: flex;
     width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 80px;
 }
+
 .modul-house-item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.modul-item-title{
+
+.modul-item-title {
     font-size: 24px;
     font-weight: 400;
 }
+
 .modul-item-2 {
     display: flex;
     flex-wrap: nowrap;
@@ -351,10 +371,12 @@ font-weight: 600;
     gap: 40px;
     padding-top: 60px;
 }
-.modul-item-2-title{
+
+.modul-item-2-title {
     font-size: 24px;
     font-weight: 400;
 }
+
 .modul-item-3 {
     display: flex;
     flex-wrap: nowrap;
@@ -369,56 +391,56 @@ font-weight: 600;
 
 /* Слайдер */
 
-.offer-slider{
-padding-top: 60px;
+.offer-slider {
+    padding-top: 60px;
 }
 
 .offer-slider-metal {
     padding-top: 80px;
     padding-bottom: 60px;
-  }
-  
-  .cool-offer-slider_1 {
+}
+
+.cool-offer-slider_1 {
     position: absolute;
     z-index: 999;
     top: 20%;
     left: 40px;
-  }
-  
-  .cool-offer-slider_2 {
+}
+
+.cool-offer-slider_2 {
     position: absolute;
     z-index: 999;
     top: 20%;
     right: 40px;
-  }
-  
-  .sim-slider {
+}
+
+.sim-slider {
     max-width: 1200px;
     min-width: 320px;
     margin: 0 auto;
-  }
-  
-  .sim-slider-list img {
+}
+
+.sim-slider-list img {
     width: 1200px;
     height: 400px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  
-  }
-  
-  /* General styles */
-  .sim-slider {
+
+}
+
+/* General styles */
+.sim-slider {
     position: relative;
-  }
-  
-  .sim-slider-list {
+}
+
+.sim-slider-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
     position: relative;
-  }
-  
-  .sim-slider-element {
+}
+
+.sim-slider-element {
     width: 100%;
     transition: opacity 1s ease-in;
     opacity: 0;
@@ -427,41 +449,42 @@ padding-top: 60px;
     left: 0;
     top: 0;
     display: block;
-  }
-  
-  /* Navigation item styles */
-  div.sim-slider-arrow-left,
-  div.sim-slider-arrow-right {
+}
+
+/* Navigation item styles */
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
     width: 50px;
     height: 50px;
     position: absolute;
     cursor: pointer;
     opacity: 0.6;
     z-index: 4;
-  }
-  
-  div.sim-slider-arrow-left {
+}
+
+div.sim-slider-arrow-left {
     left: -20px;
     top: 220px;
     display: block;
     background: url("/delovoy_soyuz_new/img/ar-right.svg") no-repeat;
-  }
-  
-  div.sim-slider-arrow-right {
+}
+
+div.sim-slider-arrow-right {
     right: -20px;
     top: 220px;
     display: block;
     background: url(/delovoy_soyuz_new/img/ar-left.svg) no-repeat;
-} 
-  div.sim-slider-arrow-left:hover {
+}
+
+div.sim-slider-arrow-left:hover {
     opacity: 1.0;
-  }
-  
-  div.sim-slider-arrow-right:hover {
+}
+
+div.sim-slider-arrow-right:hover {
     opacity: 1.0;
-  }
-  
-  div.sim-slider-dots {
+}
+
+div.sim-slider-dots {
     display: none;
     width: 100%;
     height: auto;
@@ -470,9 +493,9 @@ padding-top: 60px;
     bottom: 0;
     z-index: 3;
     text-align: center;
-  }
-  
-  span.sim-dot {
+}
+
+span.sim-dot {
     display: none;
     width: 10px;
     height: 10px;
@@ -482,9 +505,9 @@ padding-top: 60px;
     background-color: #BBB;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
 
-  .cta-button-offer {
+.cta-button-offer {
     background: #970010;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -496,13 +519,13 @@ padding-top: 60px;
     display: inline-block;
     transform: skew(-15deg);
     margin: 0 auto;
-  }
-  
-  .text-upperc {
-    text-transform: uppercase;
-  }
+}
 
-  .buttons-offer-metal {
+.text-upperc {
+    text-transform: uppercase;
+}
+
+.buttons-offer-metal {
     display: flex;
     margin: 0 auto;
     max-width: 1160px;
@@ -538,37 +561,44 @@ padding-top: 60px;
     padding-top: 90px;
     gap: 20px;
 }
-.our-project-wrap-pic{
+
+.our-project-wrap-pic {
     bottom: -200px;
     position: relative;
 }
+
 .our-project-item {
     width: 1060px;
     height: 500px;
     border-radius: 10px;
 }
-.our-project-wrapp-second{
+
+.our-project-wrapp-second {
     display: flex;
     width: 1160px;
     margin: 0 auto;
     justify-content: flex-end;
 }
+
 .our-project-item-2 {
     width: 1060px;
     border-radius: 10px;
     margin-top: -180px;
 }
-.our-project-wrapp-third{
+
+.our-project-wrapp-third {
     display: flex;
     width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 60px;
 }
-.our-project-item-3{
+
+.our-project-item-3 {
     border-radius: 10px;
 }
-.our-project-wrapp-four{
+
+.our-project-wrapp-four {
     display: flex;
     width: 1160px;
     margin: 0 auto;
@@ -653,6 +683,7 @@ padding-top: 60px;
 .btn-policy {
     width: 70%;
 }
+
 /*Контакты*/
 .title-our-contact-offer {
     font-size: 40px;
@@ -714,6 +745,8 @@ padding-top: 60px;
 .grid-border {
     border-right: 1px solid #DB3544;
 }
+
+
 @media screen and (max-width: 1024px) {
 
     .hero-main {
@@ -1532,11 +1565,13 @@ padding-top: 60px;
         font-size: 18px;
         margin: 0;
     }
+
     .modul-item-3 {
         width: 320px;
         padding-top: 20px;
         flex-direction: column-reverse;
     }
+
     .modul-item-3>img {
         width: 320px;
         padding-top: 20px;
@@ -1594,21 +1629,26 @@ padding-top: 60px;
     .our-project-wrap {
         width: 320px;
     }
+
     .our-project-item {
         width: 100%;
         height: auto;
     }
+
     .our-project-wrapp-second {
         width: 320px;
     }
+
     .our-project-item-2 {
         width: 320px;
     }
+
     .our-project-wrapp-third {
         width: 320px;
         flex-direction: column;
         gap: 20px;
     }
+
     .our-project-item-3 {
         width: 320px;
     }
@@ -1616,63 +1656,80 @@ padding-top: 60px;
     .our-project-wrapp-third>img {
         width: auto;
     }
+
     .our-project-wrapp-four {
         width: 320px;
     }
+
     .last-forms-offer {
         width: 320px;
         text-align: center;
     }
+
     .clients-partners-forms {
         width: 320px;
     }
+
     .client-form-offer {
         font-size: 20px;
         text-align: center;
     }
-    .btn-forms-client{
+
+    .btn-forms-client {
         width: 94%;
     }
+
     .input-box input {
         width: 280px;
     }
-    .client-form-description{
+
+    .client-form-description {
         width: 100% !important;
         text-align: center;
     }
+
     .client-form-construction {
         width: 96%;
         margin: 0 auto;
         background-color: #fffffff0;
     }
+
     .title-our-contact-offer {
         font-size: 28px;
     }
+
     .last-forms-offer {
         width: 320px;
         text-align: center;
     }
+
     .clients-partners-forms {
         width: 320px;
     }
+
     .client-form-offer {
         font-size: 20px;
         text-align: center;
     }
-    .btn-forms-client{
+
+    .btn-forms-client {
         width: 100%;
     }
+
     .input-box input {
         width: 280px;
     }
-    .client-form-description{
+
+    .client-form-description {
         width: 100% !important;
         text-align: center;
     }
+
     .client-form-construction {
         width: 96%;
         margin: 0 auto;
     }
+
     .title-our-contact-offer {
         font-size: 28px;
     }
@@ -1682,57 +1739,49 @@ padding-top: 60px;
         text-align: center;
     }
 
-/**/
+    /**/
 
-.our-contact {
-    width: 320px;
-    margin: 0 auto;
-}
-.title-our-contact-offer {
-    font-size: 28px;
-}
-.social-contact {
-    width: 280px;
-    margin: 0 auto;
-    padding: 10px;
-}
-.odnok {
-    width: 140px;
-}
-.whatsapp, .vk, .tg {
-    width: 40px;
-}
-.contacts-adress{
-    width: 320px;
-}
-.title-our-offer {
-    font-size: 28px;
-    margin: 60px auto 40px;
-    width: 320px;
-    gap: 10px;
-}
-.our-contact-offer2 {
-    width: 320px;
-    margin: 0 auto;
-}
-.title-span{
-display: none;
-}
-marqwee-carusel{
-    width: 320px;
-    margin: 0 auto;
-}
+    .our-contact {
+        width: 320px;
+        margin: 0 auto;
+    }
 
-.scroll_bg,
-.scroll_bg-2{
-    width: 320px;
-}
-.buttons-offer-metal{
-    width: 320px;
-}
-.text-second-offer-construction{
-    width: 320px;
-}
-}
+    .title-our-contact-offer {
+        font-size: 28px;
+    }
 
+    .social-contact {
+        width: 280px;
+        margin: 0 auto;
+        padding: 10px;
+    }
 
+    .odnok {
+        width: 140px;
+    }
+
+    .whatsapp, .vk, .tg {
+        width: 40px;
+    }
+
+    .contacts-adress {
+        width: 320px;
+    }
+
+    .title-our-offer {
+        font-size: 28px;
+        margin: 60px auto 40px;
+        width: 320px;
+        gap: 10px;
+    }
+
+    .our-contact-offer2 {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .text-second-offer-construction {
+        width: 320px;
+    }
+
+}

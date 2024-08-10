@@ -1,0 +1,1200 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("menu-drop.css");
+
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*пЕРВЫЙ ЭКРАН*/
+
+.hero-commercial-real-estate {
+    max-width: 100%;
+    background-image: url(/delovoy_soyuz_new/img/commercial-real-estate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    top: -40px;
+}
+
+.hero-main-content {
+    margin: 0 auto;
+    width: 1160px;
+    padding: 0 0 60px 20px;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+.hero-title {
+    font-size: 40px;
+    padding: 140px 0 0 0;
+    color: #000000;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 30px;
+    width: 760px;
+    font-weight: 500;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.title-span {
+    color: #970010;
+}
+
+.title1-span {
+    color: #970010;
+}
+
+
+.hero-content-block {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.cta-button_1 {
+    background: transparent;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #970010;
+    border-radius: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding: 12px 20px;
+    display: inline-block;
+    transform: skew(-15deg);
+}
+
+.cta-buttons1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cta-button1 {
+    display: inline-block;
+    background-color: #DB3544;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    margin-right: 60px;
+}
+
+.cta-button1:hover {
+    background-color: #970010;
+}
+
+.cta-button1_2 {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mypoint {
+    font-size: 42px;
+    color: #970010;
+}
+
+.main-text {
+    width: 600px;
+}
+
+.mytext-selection {
+    font-size: 28px;
+    font-weight: 500;
+    color: #970010;
+    line-height: 42px;
+}
+
+/* Оффер */
+
+.offer {
+    margin-top: 90px !important;
+    display: flex;
+    width: 1160px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.second-offer {
+    display: flex;
+    margin: 0;
+    width: 1160px;
+    flex-direction: column;
+}
+
+.title-second-offer {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    line-height: 50px;
+    width: 900px;
+
+}
+
+.description-second-offer {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 60px;
+    width: 620px;
+}
+
+.description-second-text {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 60px;
+    width: auto;
+}
+
+/**/
+.commercial-estate-advantage {
+    display: grid;
+    grid-template-columns: 75px auto;
+    margin: 0 auto;
+    grid-gap: 60px;
+    width: 1160px;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.proposals-wrapp {
+    display: flex;
+    column-gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.proposals-wrapp-pic {
+    width: 90%;
+}
+
+.proposals-items {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.proposals-item-1 {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.proposals-item-1>img {
+    width: 60px;
+}
+
+.proposals-item-title {
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.proposals-item-text {
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+
+.buttons-proposals {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.button-proposals {
+    display: inline-block;
+    background-color: #DB3544;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    width: 60%;
+    text-align: center;
+}
+
+.button-proposals:hover {
+    background-color: #970010;
+}
+
+/**/
+.key-offer {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.key-offer-wrapp {
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    margin-top: -80px;
+}
+
+.key-offer-text {
+    font-size: 24px;
+    padding: 40px 40px 60px 40px;
+}
+
+.buttons-key-offer {
+    display: flex;
+    width: 100%;
+    margin-top: -40px;
+    justify-content: flex-start;
+}
+
+.button-key-offer {
+    display: inline-block;
+    background-color: #DB3544;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.button-key-offer:hover {
+    background-color: #970010;
+}
+
+/**/
+.commercial-estate-appeal {
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.description-offer-appeal {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 60px;
+    width: auto;
+}
+
+.commercial-appeal-pic {
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.commercial-appeal-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.commercial-appeal-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.commercial-appeal-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 31%;
+}
+
+.commercial-appeal-wrapp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/**/
+
+.help-offer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-image: url(/delovoy_soyuz_new/img/commercial-estate-fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 120px;
+}
+
+.help-offer-wrapp {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 160px;
+}
+
+.help-offer-wrapp-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-offer-btn-offer {
+    background: #970010;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    transform: skew(-15deg);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 30px;
+}
+
+.help-offer-btn-wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: skew(14deg);
+}
+
+.help-offer-title {
+    width: 90%;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.help-offer-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 10px;
+    transform: skew(14deg);
+}
+
+.help-offer-pic {
+    width: 10%;
+}
+
+.buttons-help-offer {
+    margin-top: 40px;
+    margin-bottom: 260px;
+}
+
+.button-help-offer {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.button-help-offer:hover {
+    background-color: #970010;
+}
+
+.help-offer-img-text {
+    width: 1160px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+/**/
+.commercial-estate-offer {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.last-forms-commercial-estate {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.title-last-commercial-estate {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    line-height: 50px;
+    width: 750px;
+}
+
+.description-last-commercial-estate {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    width: 900px;
+}
+
+.client-form-offer {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.clients-commercial-estate-forms {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.client-form-commercial-estate {
+    background-image: url(/delovoy_soyuz_new/img/commercial-estate-forms-1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 10px;
+    padding: 20px 0 0 20px;
+    width: 46%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffffffc5;
+}
+
+.client-form-commercial-estate-2 {
+    background-image: url(/delovoy_soyuz_new/img/commercial-estate-forms-2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 10px;
+    padding: 20px 0 0 20px;
+    width: 46%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffffffc5;
+}
+
+.commercial-estate-form-description {
+    font-size: 18px;
+    width: 65%;
+}
+
+.name,
+.text {
+    display: block;
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.input-box input {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    border: 1px solid #DB3544;
+    border-radius: 10px;
+}
+
+.btn-forms-client {
+    width: 52%;
+    padding: 20px 60px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #DB3544;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.btn-forms-client:hover {
+    background-color: #970010;
+}
+
+.btn-policy {
+    width: auto;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/*Контакты*/
+.title-our-contact-offer {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.social-contact {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.odnok {
+    width: 200px;
+}
+
+.whatsapp,
+.vk,
+.tg {
+    width: 50px;
+}
+
+.contacts-adress {
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 80px;
+    font-size: 24px;
+}
+
+.title-our-offer {
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 40px;
+    width: 800px;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-main {
+        width: 980px;
+    }
+
+    .hero-main-content {
+        width: 980px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-description {
+        font-size: 24px;
+        width: 88%;
+    }
+
+    .cta-buttons {
+        gap: 20px;
+    }
+
+    .cta-button_1 {
+        font-size: 16px;
+    }
+
+    .cta-button1 {
+        padding: 20px;
+        width: 260px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .cta-buttons1 {
+        justify-content: space-between;
+    }
+
+    .main-text {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    /**/
+    .commercial-estate-advantage {
+        grid-template-columns: 65px auto;
+        grid-gap: 20px;
+        width: 980px;
+        justify-items: stretch;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .second-offer {
+        width: auto;
+    }
+
+    .title-second-offer {
+        font-size: 32px;
+        width: auto;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .description-second-offer {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+        padding-bottom: 20px;
+        width: auto;
+    }
+
+    .description-second-text {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+        padding-bottom: 40px;
+        width: auto;
+    }
+    .proposals-items{
+        width: auto;
+    }
+
+    /**/
+    .key-offer {
+        width: 980px;
+    }
+
+    .key-offer-wrapp {
+        width: 98%;
+        margin-top: -70px;
+    }
+
+    .key-offer-text {
+        font-size: 22px;
+    }
+
+    .button-key-offer {
+        margin-left: 46px;
+    }
+
+    /**/
+    .commercial-estate-appeal {
+        width: 980px;
+        margin-top: 90px;
+    }
+
+    .description-offer-appeal {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+        padding-bottom: 40px;
+        width: auto;
+    }
+
+    .commercial-appeal-title {
+        font-size: 21px;
+    }
+
+    .commercial-appeal-text {
+        font-size: 18px;
+    }
+
+    /**/
+    .help-offer {
+        margin-top: 90px;
+    }
+
+    .help-offer-wrapp {
+        width: 980px;
+        padding-top: 90px;
+    }
+
+    .buttons-help-offer {
+        margin-bottom: 120px;
+    }
+
+    .help-offer-title {
+        font-size: 22px;
+    }
+
+    .help-offer-img-text {
+        width: 980px;
+        padding-bottom: 40px;
+    }
+
+    /**/
+    .last-forms-commercial-estate {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .commercial-estate-offer {
+        width: 980px;
+    }
+
+    .title-last-commercial-estate {
+        font-size: 32px;
+        margin: 0 0 10px 0;
+        line-height: 40px;
+        width: 80%;
+    }
+
+    .description-last-commercial-estate {
+        font-size: 24px;
+        margin: 0;
+        width: 70%;
+    }
+
+    .clients-commercial-estate-forms {
+        width: 980px;
+        margin-top: 40px;
+    }
+
+    /**/
+    .title-our-contact-offer {
+        font-size: 32px;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .contacts-adress {
+        width: 980px;
+        font-size: 20px;
+    }
+
+    .title-our-offer {
+        font-size: 32px;
+        width: auto;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-commercial-real-estate {
+        background-position: center;
+    }
+
+    .hero-main-content {
+        width: 728px;
+    }
+
+    .hero-description {
+        width: auto;
+    }
+
+    .hero-description-correction {
+        width: 100%;
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .mytext-selection {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .cta-button1 {
+        padding: 20px;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .cta-button1_2 {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .cta-buttons1 {
+        justify-content: space-between;
+    }
+
+    .cta-button1 {
+        width: auto;
+    }
+
+    /**/
+    .commercial-estate-advantage {
+        display: flex;
+        width: 728px;
+        margin-top: 20px;
+    }
+
+    .proposals-wrapp-pic {
+        display: none;
+    }
+
+    .buttons-proposals {
+        margin-top: 20px;
+    }
+
+    .button-proposals {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /**/
+    .key-offer {
+        width: 728px;
+        margin-top: 60px;
+    }
+
+    .key-offer-text {
+        font-size: 20px;
+    }
+
+    .button-key-offer {
+        font-size: 20px;
+    }
+
+    /**/
+    .commercial-estate-appeal {
+        width: 728px;
+    }
+
+    .commercial-appeal-wrapp {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .commercial-appeal-item {
+        width: auto;
+    }
+
+    /**/
+    .help-offer-wrapp {
+        width: 728px;
+        align-items: center;
+    }
+
+    .button-help-offer {
+        font-size: 20px;
+    }
+
+    .help-offer-img-text {
+        width: 728px;
+        padding-bottom: 20px;
+    }
+
+    /**/
+    .commercial-estate-offer {
+        width: 728px;
+    }
+
+    .title-last-commercial-estate {
+        width: auto;
+    }
+
+    .description-last-commercial-estate {
+        width: auto;
+    }
+
+    .clients-commercial-estate-forms {
+        width: 728px;
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .client-form-commercial-estate,
+    .client-form-commercial-estate-2 {
+        width: auto;
+    }
+
+    .commercial-estate-form-description {
+        width: 50%;
+    }
+
+    .contacts-adress {
+        width: 728px;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .social-contact {
+        height: auto;
+    }
+
+    .contacts-adress {
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .hero-commercial-real-estate {
+        height: auto;
+    }
+
+    .hero-main-content {
+        width: 320px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .hero-correction {
+        height: auto;
+    }
+
+    .hero-description {
+        font-size: 24px;
+        width: 320px;
+        text-align: center;
+        font-weight: 500;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+
+    .cta-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cta-button_1 {
+        border-radius: 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 20px;
+        padding: 10px 5px;
+    }
+
+    .main-text {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    .cta-buttons1 {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-button1 {
+        margin: 0 0 20px 0;
+    }
+
+    .cta-button1_2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    /**/
+    .commercial-estate-advantage {
+        width: 320px;
+    }
+
+    .title-second-offer {
+        width: 320px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .description-second-offer {
+        width: 320px;
+        text-align: center;
+    }
+
+    .description-second-text {
+        width: 320px;
+        text-align: center;
+    }
+
+    .title-span {
+        display: none;
+    }
+
+    /**/
+    .proposals-wrapp {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .proposals-item-1 {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .button-proposals {
+        margin-bottom: 40px;
+    }
+
+    /**/
+    .key-offer {
+        width: 320px;
+        margin-top: 40px;
+    }
+
+    .key-offer-pic>img {
+        width: 320px;
+    }
+    .key-offer-text {
+        text-align: center;
+        padding: 30px 20px 40px 20px;
+    }
+    .button-key-offer {
+        margin: 0 auto;
+    }
+
+    /**/
+    .commercial-estate-appeal {
+        width: 320px;
+    }
+    .description-offer-appeal{
+        width: 320px;
+        text-align: center;
+    }
+    .commercial-appeal-wrapp {
+        align-items: center;
+    }
+    .commercial-appeal-item {
+        align-items: center;
+        text-align: center;
+    }
+
+    /**/
+    .help-offer-wrapp {
+        width: 320px;
+        padding-top: 60px;
+    }
+    .help-offer-btn-wrapp{
+        flex-direction: column;
+        gap: 20px;
+        transform: skew(0deg);
+    }
+    .help-offer-btn-offer{
+        padding: 10px;
+        width: 280px;
+        transform: skew(0deg);
+    }
+    .help-offer-title>img{
+        width: auto;
+    }
+    .help-offer-pic{
+        width: auto;
+    }
+    .help-offer-text {
+        font-size: 18px;
+        text-align: center;
+        transform: skew(0deg);
+    }
+    .help-offer-title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .help-offer-img-text{
+        width: 320px;
+    }
+
+    /**/
+    .commercial-estate-offer {
+        width: 320px;
+    }
+    .title-last-commercial-estate {
+        text-align: center;
+        line-height: 38px;
+    }
+    .description-last-commercial-estate {
+        text-align: center;
+    }
+    .client-form-commercial-estate, 
+    .client-form-commercial-estate-2 {
+        width: 320px;
+        background-size: 70%;
+        text-align: center;
+        padding: 10px;
+    }
+    .clients-commercial-estate-forms {
+        width: 320px;
+    }
+    .commercial-estate-form-description {
+        width: auto;
+    }
+    .input-box input {
+        width: 90%;
+    }
+    .btn-forms-client {
+        width: 93%;
+    }
+    .btn-policy{
+        font-size: 14px;
+    }
+
+    /**/
+
+.our-contact {
+    width: 320px;
+    margin: 0 auto;
+}
+.title-our-contact-offer {
+    font-size: 28px;
+}
+.social-contact{
+    width: 280px;
+    padding: 20px;
+}
+.odnok {
+    width: 120px;
+}
+.whatsapp, .vk, .tg {
+    width: 30px;
+}
+.contacts-adress {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.title-our-offer {
+    font-size: 28px;
+    margin: 60px auto 40px;
+    width: 320px;
+    gap: 10px;
+}
+.our-contact-offer2 {
+    width: 320px;
+    margin: 0 auto;
+}
+
+}

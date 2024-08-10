@@ -664,7 +664,7 @@ body {
 }
 
 .btn-policy {
-    width: 70%;
+    width: 90%;
 }
 
 /* Слайдер */
@@ -830,14 +830,10 @@ span.sim-dot {
     gap: 20px;
 }
 
-
-
-
 .mynumber {
     text-decoration: none;
     color: #869791;
 }
-
 
 .grid-border {
     border-right: 1px solid #DB3544;
@@ -1594,43 +1590,28 @@ span.sim-dot {
     .last-forms-offer {
         width: 320px;
     }
+
     .description-last-forms-offer {
         text-align: center;
         font-size: 20px;
     }
+
     .clients-partners-forms {
         width: 320px;
     }
-    .btn-forms-client{
+
+    .btn-forms-client {
         width: 94%;
     }
+
     .input-box input {
         width: 280px;
     }
-    .client-form-description{
+
+    .client-form-description {
         width: 100%;
         text-align: center;
     }
-    .title-our-contact-offer {
-        font-size: 28px;
-    }
-    .social-contact{
-        width: 320px;
-        padding: 10px;
-    }
-    .odnok {
-        width: 140px;
-    }
-    .whatsapp, .vk, .tg {
-        width: 40px;
-    }
-    .contacts-adress{
-        width: 320px;
-    }
-    .title-our-offer {
-        font-size: 28px;
-        margin: 60px auto 40px;
-        width: 320px;
-        gap: 10px;
-    }
+
+
 }

@@ -55,12 +55,9 @@ body {
 .title-span {
   color: #970010;
 }
-.title1-span {
-  color: #970010;
-}
 
 .hero-content-block {
-  background-image: url(/img/Плашка.png);
+  background-image: url(/delovoy_soyuz_new/img/Плашка.png);
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -692,14 +689,14 @@ div.sim-slider_2-arrow-left {
   left: -20px;
   top: 50%;
   display: block;
-  background: url("img/ar-right.svg") no-repeat;
+  background: url("/delovoy_soyuz_new/img/ar-right.svg") no-repeat;
 }
 
 div.sim-slider_2-arrow-right {
   right: -20px;
   top: 50%;
   display: block;
-  background: url("img/ar-left.svg") no-repeat;
+  background: url("/delovoy_soyuz_new/img/ar-left.svg") no-repeat;
 }
 
 div.sim-slider_2-arrow-left:hover {
@@ -1247,7 +1244,7 @@ div.sim-slider_2-arrow-right:hover {
 }
 
 .client-form {
-  background-image: url(/delovoy_soyuz_new//img/heart.png);
+  background-image: url(/delovoy_soyuz_new/img/heart.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   border-radius: 10px;
@@ -1257,7 +1254,7 @@ div.sim-slider_2-arrow-right:hover {
 }
 
 .client-form_2 {
-  background-image: url(/delovoy_soyuz_new//img/Mask-logopng.png);
+  background-image: url(/delovoy_soyuz_new/img/Mask-logopng.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   border-radius: 10px;
