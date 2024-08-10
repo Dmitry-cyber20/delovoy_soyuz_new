@@ -1,4 +1,4 @@
-@import url("/delovoy_soyuz_new/css/header.css");
+@import url("header.css");
 @import url("footer.css");
 
 /* Общие стили */
@@ -432,7 +432,7 @@ body {
 
 /**/
 .last-forms {
-    background-image: url(/img/village-offer.png);
+    background-image: url(/delovoy_soyuz_new/img/village-offer.png);
     padding-top: 90px;
     padding-bottom: 90px;
     background-repeat: no-repeat;
@@ -451,7 +451,7 @@ body {
 }
 
 .client-form-construction {
-    background-image: url(/img/village-offer-1.png);
+    background-image: url(/delovoy_soyuz_new/img/village-offer-1.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     border-radius: 10px;
@@ -801,7 +801,7 @@ body {
 }
 
 .client-form-village {
-    background-image: url(/img/village-last-offer.png);
+    background-image: url(/delovoy_soyuz_new/img/village-last-offer.png);
     background-repeat: no-repeat;
     background-position: right center;
     border-radius: 10px;
