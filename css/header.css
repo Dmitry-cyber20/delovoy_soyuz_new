@@ -162,7 +162,7 @@ nav a {
 .menu__item:hover {
     background-color: #CFD8DC;
 }
-.menu-drop-list accordion {
+menu-drop-list accordion {
     display: flex;
     flex-direction: column;
     gap: 5px;
