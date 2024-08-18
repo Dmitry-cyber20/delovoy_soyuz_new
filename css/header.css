@@ -170,6 +170,7 @@ nav a {
     font-family: inherit;
     padding: 0;
 }
+
 .dropbtn-mobile {
     font-size: 16px;
     text-transform: uppercase;
@@ -208,6 +209,7 @@ nav a {
     column-gap: 20px;
     padding: 10px;
 }
+
 .dropdown-content-menu-mobile {
     display: none;
     position: absolute;
@@ -236,6 +238,7 @@ nav a {
     text-decoration: none;
     display: block;
 }
+
 .dropdown-content-menu-mobile a {
     color: black;
     padding: 5px;
@@ -248,6 +251,7 @@ nav a {
     background-color: #ffffff;
     color: #DB3544;
 }
+
 .dropdown:hover .dropdown-content {
     display: grid;
 }
@@ -256,6 +260,7 @@ nav a {
     display: grid;
 
 }
+
 .dropdown:hover .dropdown-content-menu-mobile {
     display: grid;
 
@@ -265,12 +270,13 @@ nav a {
     color: #DB3544;
     font-weight: 500;
 }
+
 .dropdown:hover .dropbtn-mobile {
     color: #DB3544;
     font-weight: 500;
 }
 
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .gamburger-menu {
         display: none;
     }
@@ -288,8 +294,9 @@ nav a {
         display: none !important;
     }
 
-  }  
-  @media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 768px) {
     header {
         padding: 0px !important;
     }
@@ -297,8 +304,9 @@ nav a {
     .header-container {
         max-width: 728px;
     }
-  }
-  @media (min-width: 320px) and (max-width: 767px){
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
     .header-container {
         max-width: 310px;
         justify-content: center;
@@ -334,6 +342,7 @@ nav a {
     .social-icon_7 img {
         width: 20px !important;
     }
+
     .dropbtn-mobile {
         text-transform: none;
         font-size: 16px;
@@ -355,24 +364,32 @@ nav a {
         top: 12px;
     }
 
+    .dropbtn-mobile accordion {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 10%;
+    }
+
     /**/
-    .menu__box{
+    .menu__box {
         width: 80%;
         padding: 60px 0;
     }
+
     .dropdown-content-menu-mobile {
         width: 100%;
         right: 20%;
         top: -100px;
         grid-template-columns: repeat(1, 1fr);
     }
-    .dropdown-content-menu-mobile a{
+
+    .dropdown-content-menu-mobile a {
         padding: 0;
         padding-bottom: 5px;
     }
-    
-    .menu-drop-list accordion{
+
+    .menu-drop-list accordion {
         padding-left: 20px;
     }
-  }
-
+}
