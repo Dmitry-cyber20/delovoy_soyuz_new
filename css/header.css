@@ -150,6 +150,10 @@ nav a {
 }
 .menu__box>ul{
     list-style: none !important;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 .menu__item {
