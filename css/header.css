@@ -148,6 +148,9 @@ nav a {
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
 }
+.menu__box>ul{
+    list-style: none !important;
+}
 
 .menu__item {
     display: block;
