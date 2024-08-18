@@ -334,11 +334,14 @@ nav a {
     .social-icon_7 img {
         width: 20px !important;
     }
-    .dropbtn-mobile{
+    .dropbtn-mobile {
         text-transform: none;
         font-size: 16px;
-        color: #000;
+        font-weight: 400;
         padding: 0;
+        color: #000;
+        font-family: 'Exo 2';
+        letter-spacing: normal;
     }
 
     .dropbtn img {
