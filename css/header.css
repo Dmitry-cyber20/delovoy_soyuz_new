@@ -337,6 +337,8 @@ nav a {
     .dropbtn-mobile{
         text-transform: none;
         font-size: 16px;
+        color: #000;
+        padding: 0;
     }
 
     .dropbtn img {
